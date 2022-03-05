@@ -27,6 +27,6 @@ app.use(
     };
 
     res.status(status);
-    res.send(JSON.stringify(formattedError));
+    res.json(formattedError);
   }
 );
