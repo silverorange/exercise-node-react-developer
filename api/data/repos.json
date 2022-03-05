@@ -34,7 +34,9 @@
     "ssh_url": "git@github.com:silverorange/JSONExample.git",
     "clone_url": "https://github.com/silverorange/JSONExample.git",
     "svn_url": "https://github.com/silverorange/JSONExample",
+    "commits_url": "https://api.github.com/silverorange/JSONExample/commits{/sha}",
     "homepage": "https://www.silverorange.com",
+    "default_branch": "main",
     "size": 1234,
     "stargazers_count": 0,
     "watchers_count": 0,
@@ -42,7 +44,6 @@
     "forks_count": 999,
     "forks": 5
   },
-
   {
     "id": 87654321,
     "name": "ThirdExample",
@@ -78,7 +79,9 @@
     "ssh_url": "git@github.com:silverorange/ThirdExample.git",
     "clone_url": "https://github.com/silverorange/ThirdExample.git",
     "svn_url": "https://github.com/silverorange/ThirdExample",
+    "commits_url": "https://api.github.com/silverorange/ThirdExample/commits{/sha}",
     "homepage": "https://www.silverorange.com",
+    "default_branch": "main",
     "size": 5678,
     "stargazers_count": 0,
     "watchers_count": 0,
@@ -121,7 +124,9 @@
     "ssh_url": "git@github.com:silverorange/SecondExample.git",
     "clone_url": "https://github.com/silverorange/SecondExample.git",
     "svn_url": "https://github.com/silverorange/SecondExample",
+    "commits_url": "https://api.github.com/silverorange/SecondExample/commits{/sha}",
     "homepage": "https://www.silverorange.com",
+    "default_branch": "main",
     "size": 4321,
     "stargazers_count": 0,
     "watchers_count": 0,
