@@ -7,8 +7,8 @@
     "start": "DEBUG=api ts-node-dev -- ./src/index.ts",
     "test": "node -e \"console.log('No tests yet!')\"",
     "lint": "eslint 'src/**/*.{js,ts}'",
-    "prettier": "prettier --list-different 'src/**/*.{ts,tsx}'",
-    "prettier-write": "prettier --write 'src/**/*.{ts,tsx}'"
+    "prettier": "prettier --list-different 'src/**/*.{js,ts}'",
+    "prettier-write": "prettier --write 'src/**/*.{js,ts}'"
   },
   "dependencies": {
     "cors": "^2.8.5",
