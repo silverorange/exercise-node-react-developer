@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
+import { AppError } from '../models/AppError';
 
 export function terrible(
   failureRate = 0.25,
@@ -16,10 +17,7 @@ export function terrible(
 
     setTimeout(() => {
       if (Math.random() < failureRate) {
-        next({
-          status: 400,
-          message: 'A wild error appeared.',
-        });
+        next(new AppError('A wild error appeared.', 400));
       } else {
         next();
       }
