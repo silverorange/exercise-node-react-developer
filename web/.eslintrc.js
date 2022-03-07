@@ -27,6 +27,7 @@ function convertOverridesToArray(overrides) {
 // Extend the create-react-app config and set all warnings to errors. Also add
 // config extensions for Prettier integration, and our own rules (based on
 // tslint-react).
+/** @type {import('eslint').Linter.Config} */
 const newConfig = Object.assign({}, config, {
   extends: [...config.extends, 'react-app/jest', 'plugin:prettier/recommended'],
   rules: Object.assign(updateWarnRulesToErrorRules(config.rules), {
