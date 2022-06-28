@@ -4,11 +4,11 @@
   "description": "Example API server",
   "private": true,
   "scripts": {
-    "start": "DEBUG=api ts-node-dev -- ./src/index.ts",
+    "start": "cross-env DEBUG=api ts-node-dev -- ./src/index.ts",
     "test": "node -e \"console.log('No tests yet!')\"",
-    "lint": "eslint 'src/**/*.{js,ts}'",
-    "prettier": "prettier --list-different 'src/**/*.{js,ts}'",
-    "prettier-write": "prettier --write 'src/**/*.{js,ts}'"
+    "lint": "eslint \"src/**/*.{js,ts}\"",
+    "prettier": "prettier --list-different \"src/**/*.{js,ts}\"",
+    "prettier-write": "prettier --write \"src/**/*.{js,ts}\""
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -26,6 +26,7 @@
     "@types/node": "^14.18.12 || ^16.11.26",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
